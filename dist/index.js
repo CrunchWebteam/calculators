@@ -713,7 +713,6 @@
             (a.includes("/capital-gains") && Q(r),
             a.includes("/dividend-tax") && z(r),
             a.includes("/income-tax") && ee(r),
-            a.includes("/take-home-pay") && ee(r),
             a.includes("/national-insurance") && ae(r),
             a.includes("/mileage") && ie(r),
             a.includes("/student-and-post-graduate-loan-repayments") && me(r));
