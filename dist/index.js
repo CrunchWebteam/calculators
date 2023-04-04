@@ -538,7 +538,7 @@
                 );
             })().reduce((c, g) => c + g.taxAtBracket, 0),
             { pathname: s } = window.location;
-        if (!s.includes("/income-tax")) return { totalEarnings: r, incomeTax: p };
+        if (!s.includes("/income-tax" || "/take-home-pay")) return { totalEarnings: r, incomeTax: p };
         let f = (() => {
                 let c = C("nationalInsurance", e.year);
                 return G(
