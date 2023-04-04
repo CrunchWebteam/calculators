@@ -94,7 +94,7 @@ export const calculation = (
   }, 0);
 
   const { pathname } = window.location;
-  if (!pathname.includes('/income-tax')) {
+  if (!pathname.includes('/income-tax' || '/take-home-pay')) {
     return {
       totalEarnings,
       incomeTax,
