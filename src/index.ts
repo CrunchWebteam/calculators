@@ -38,8 +38,7 @@ window.Webflow.push(() => {
 
   if (pathname.includes('/capital-gains')) calculators.capitalGains(form);
   if (pathname.includes('/dividend-tax')) calculators.dividends(form);
-  if (pathname.includes('/income-tax')) calculators.incomeTax(form);
-  if (pathname.includes('/take-home-pay')) calculators.incomeTax(form);
+  if (pathname.includes('/income-tax' || '/take-home-pay')) calculators.incomeTax(form);
   if (pathname.includes('/national-insurance')) calculators.nationalInsurance(form);
   if (pathname.includes('/mileage')) calculators.mileage(form);
   if (pathname.includes('/student-and-post-graduate-loan-repayments'))
